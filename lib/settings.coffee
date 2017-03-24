@@ -17,7 +17,7 @@ module.exports =
       atom.config.onDidChange 'seti-dark-syntax.dynamicColor', (value) ->
         # IF DYNIMIC IS ALLWOED
         if (value.newValue)
-          newColor = atom.config.get('seti-ui.themeColor')
+          newColor = atom.config.get('seti-dark-ui.themeColor')
           self.setTheme newColor, false, true
         # IF DYNAMIC IS NOT ALLOWED
         else
@@ -30,22 +30,22 @@ module.exports =
           self.setTheme newColor, false, true
 
       # IF SETI UI IS LOADED
-      if self.isLoaded('seti-ui')
+      if self.isLoaded('seti-dark-ui')
 
         # IF DYNAMIC THEM IS ALLOWED
         if atom.config.get('seti-dark-syntax.dynamicColor') and not @themeSet
           # SET SYNTAX THEME TO MATCH UI
-          self.setTheme atom.config.get('seti-ui.themeColor'), false, false
+          self.setTheme atom.config.get('seti-dark-ui.themeColor'), false, false
 
         # WHEN UI THEME CHANGES
-        atom.config.onDidChange 'seti-ui.themeColor', (value) ->
+        atom.config.onDidChange 'seti-dark-ui.themeColor', (value) ->
           # IF DYNAMIC THEM IS ALLOWED
           if atom.config.get('seti-dark-syntax.dynamicColor')
             # SET SYNTAX THEME TO MATCH UI
             self.setTheme value.newValue, value.oldValue, false
 
         # IF SETI UI IS DEACTIVATED
-        self.onDeactivate 'seti-ui', ->
+        self.onDeactivate 'seti-dark-ui', ->
           # IF DYNAMIC THEM WAS ALLOWED
           if atom.config.get('seti-dark-syntax.dynamicColor')
             # SET THEME TO DEFAULT

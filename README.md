@@ -2,17 +2,17 @@
 
 
 [![Gitter](https://img.shields.io/gitter/room/jesseweed/seti-dark-syntax.svg?style=flat-square)](https://gitter.im/jesseweed/seti-dark-syntax) [![apm](https://img.shields.io/apm/dm/seti-dark-syntax.svg?style=flat-square)](https://atom.io/themes/seti-dark-syntax) [![apm](https://img.shields.io/apm/v/seti-dark-syntax.svg?style=flat-square)](https://atom.io/themes/seti-dark-syntax) [![apm](https://img.shields.io/apm/l/seti-dark-syntax.svg?style=flat-square)](https://atom.io/themes/seti-dark-syntax)
-[![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-ui.svg?style=flat-square)](https://gratipay.com/Atom-Seti-UI/)
+[![Gratipay Team](https://img.shields.io/gratipay/team/atom-seti-dark-ui.svg?style=flat-square)](https://gratipay.com/Atom-seti-dark-ui/)
 
 
-This is the latest version of the Seti Syntax theme. It's a dark syntax theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It is mean to be paired with [Seti UI](https://atom.io/themes/seti-ui) (though this is hardly a requirement).
+This is the latest version of the Seti Syntax theme. It's a dark syntax theme crafted especially for [Atom](http://atom.io), with subtle colors that are meant to be easy on the eyes. It is mean to be paired with [Seti UI](https://atom.io/themes/seti-dark-ui) (though this is hardly a requirement).
 
 
 -----
 
 ##### **Please Note:** This is the Seti syntax theme for [Atom](http://atom.io) only
 
-This is for the _syntax_ (i.e. code view) of the Atom editor. I also have [Seti UI](https://atom.io/themes/seti-ui) for theming the _interface_ in Atom.
+This is for the _syntax_ (i.e. code view) of the Atom editor. I also have [Seti UI](https://atom.io/themes/seti-dark-ui) for theming the _interface_ in Atom.
 
 If you're not in the market for an Atom theme, you can have a look at one of these great ports for other platforms:
 
